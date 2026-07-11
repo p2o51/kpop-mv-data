@@ -1,0 +1,40 @@
+# Commits yesterday's snapshot manifest (object list + record counts + sha256)
+# into manifests/. The heavy lifting happens in the Cloudflare Worker — this
+# job only fetches the public /manifest endpoint, so no secrets are needed.
+# Becomes active once the repo is pushed to GitHub.
+name: Daily data manifest
+
+on:
+  schedule:
+    - cron: "25 0 * * *" # 00:25 UTC, after the worker's archive tick
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Manifest date (YYYY-MM-DD); defaults to yesterday"
+        required: false
+
+permissions:
+  contents: write
+
+jobs:
+  manifest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch manifest from collector
+        run: |
+          DATE="${{ github.event.inputs.date }}"
+          [ -z "$DATE" ] && DATE=$(date -u -d "yesterday" +%F)
+          YEAR=${DATE:0:4}; MONTH=${DATE:5:2}; DAY=${DATE:8:2}
+          mkdir -p "manifests/$YEAR/$MONTH"
+          curl -fsS "https://kpop-mv-collector.p2o51willam.workers.dev/manifest?date=$DATE" \
+            -o "manifests/$YEAR/$MONTH/$DAY.json"
+          python3 -m json.tool "manifests/$YEAR/$MONTH/$DAY.json" > /dev/null
+      - name: Commit manifest
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add manifests/
+          git diff --cached --quiet && echo "no changes" && exit 0
+          git commit -m "manifest: $(date -u -d 'yesterday' +%F)"
+          git push

@@ -1,0 +1,17 @@
+node_modules/
+dist/
+.wrangler/
+.dev.vars
+.env
+.env.*
+!.env.example
+*.local
+.DS_Store
+.turbo/
+coverage/
+web/.astro/
+web/dist/
+collector/.wrangler/
+*.log
+.vscode/
+.idea/

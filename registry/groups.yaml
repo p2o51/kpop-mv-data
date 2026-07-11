@@ -1,0 +1,856 @@
+# Girl groups / female soloists tracked in v0 (K-pop industry focus).
+# Fact-checked 2026-07-10. Companies/statuses change often — update via PR.
+# member_of links member solos to their group; aliases feed title matching.
+
+- id: blackpink
+  name: BLACKPINK
+  name_ko: 블랙핑크
+  aliases:
+    - 블랙핑크
+  company: yg
+  debut: "2016-08-08"
+  status: active
+  gender: female
+  type: group
+- id: twice
+  name: TWICE
+  name_ko: 트와이스
+  aliases:
+    - 트와이스
+  company: jyp
+  debut: "2015-10-20"
+  status: active
+  gender: female
+  type: group
+- id: itzy
+  name: ITZY
+  name_ko: 있지
+  aliases:
+    - 있지
+  company: jyp
+  debut: "2019-02-12"
+  status: active
+  gender: female
+  type: group
+- id: nmixx
+  name: NMIXX
+  name_ko: 엔믹스
+  aliases:
+    - 엔믹스
+  company: jyp
+  debut: "2022-02-22"
+  status: active
+  gender: female
+  type: group
+- id: aespa
+  name: aespa
+  name_ko: 에스파
+  aliases:
+    - 에스파
+  company: sm
+  debut: "2020-11-17"
+  status: active
+  gender: female
+  type: group
+- id: red-velvet
+  name: Red Velvet
+  name_ko: 레드벨벳
+  aliases:
+    - 레드벨벳
+  company: sm
+  debut: "2014-08-01"
+  status: active
+  gender: female
+  type: group
+- id: girls-generation
+  name: Girls' Generation
+  name_ko: 소녀시대
+  aliases:
+    - 소녀시대
+    - SNSD
+  company: sm
+  debut: "2007-08-05"
+  status: active
+  gender: female
+  type: group
+  notes: Not disbanded; no group title track since 2022. Low collection priority.
+- id: ive
+  name: IVE
+  name_ko: 아이브
+  aliases:
+    - 아이브
+  company: starship
+  debut: "2021-12-01"
+  status: active
+  gender: female
+  type: group
+- id: le-sserafim
+  name: LE SSERAFIM
+  name_ko: 르세라핌
+  aliases:
+    - 르세라핌
+    - LESSERAFIM
+    - LE_SSERAFIM
+  company: source-music
+  debut: "2022-05-02"
+  status: active
+  gender: female
+  type: group
+- id: newjeans
+  name: NewJeans
+  name_ko: 뉴진스
+  aliases:
+    - 뉴진스
+    - NJZ
+  company: ador
+  debut: "2022-07-22"
+  status: hiatus
+  gender: female
+  type: group
+  notes: No official release since Supernatural (2024-06); ADOR dispute ongoing. MVs still accrue views.
+- id: illit
+  name: ILLIT
+  name_ko: 아일릿
+  aliases:
+    - 아일릿
+  company: belift-lab
+  debut: "2024-03-25"
+  status: active
+  gender: female
+  type: group
+- id: fromis-9
+  name: fromis_9
+  name_ko: 프로미스나인
+  aliases:
+    - fromis_9
+    - fromis 9
+    - 프로미스나인
+  company: asnd
+  debut: "2018-01-24"
+  status: active
+  gender: female
+  type: group
+- id: gidle
+  name: i-dle
+  name_ko: 아이들
+  aliases:
+    - (G)I-DLE
+    - (여자)아이들
+    - GIDLE
+  company: cube
+  debut: "2018-05-02"
+  status: active
+  gender: female
+  type: group
+  notes: Rebranded from (G)I-DLE to i-dle on 2025-05-02.
+- id: mamamoo
+  name: MAMAMOO
+  name_ko: 마마무
+  aliases:
+    - 마마무
+  company: rbw
+  debut: "2014-06-19"
+  status: active
+  gender: female
+  type: group
+  notes: Group active for group work under RBW; members' solo work under separate labels (Hwasa → P NATION, Wheein → With US).
+- id: stayc
+  name: STAYC
+  name_ko: 스테이씨
+  aliases:
+    - 스테이씨
+  company: high-up
+  debut: "2020-11-12"
+  status: active
+  gender: female
+  type: group
+- id: kep1er
+  name: Kep1er
+  name_ko: 케플러
+  aliases:
+    - 케플러
+  company: wakeone
+  debut: "2022-01-03"
+  status: active
+  gender: female
+  type: group
+  notes: WAKEONE is the label; KLAP Entertainment handles management since 2024-09.
+- id: izna
+  name: izna
+  name_ko: 이즈나
+  aliases:
+    - 이즈나
+  company: wakeone
+  debut: "2024-11-25"
+  status: active
+  gender: female
+  type: group
+  notes: 6 members since Yoon Jiyoon's departure 2025-08-19.
+- id: fifty-fifty
+  name: FIFTY FIFTY
+  name_ko: 피프티피프티
+  aliases:
+    - 피프티피프티
+    - FIFTY-FIFTY
+  company: attrakt
+  debut: "2022-11-18"
+  status: active
+  gender: female
+  type: group
+- id: kiss-of-life
+  name: KISS OF LIFE
+  name_ko: 키스오브라이프
+  aliases:
+    - 키스오브라이프
+  company: s2
+  debut: "2023-07-05"
+  status: active
+  gender: female
+  type: group
+- id: triple-s
+  name: tripleS
+  name_ko: 트리플에스
+  aliases:
+    - tripleS
+    - 트리플에스
+  company: modhaus
+  debut: "2023-02-13"
+  status: active
+  gender: female
+  type: group
+- id: artms
+  name: ARTMS
+  name_ko: 아르테미스
+  aliases:
+    - 아르테미스
+  company: modhaus
+  debut: "2024-05-31"
+  status: active
+  gender: female
+  type: group
+- id: viviz
+  name: VIVIZ
+  name_ko: 비비지
+  aliases:
+    - 비비지
+  debut: "2022-02-09"
+  status: active
+  gender: female
+  type: group
+  notes: Left BPM Entertainment 2026-03-04 (contract dispute); new agency TBD — update via PR.
+- id: dreamcatcher
+  name: Dreamcatcher
+  name_ko: 드림캐쳐
+  aliases:
+    - 드림캐쳐
+  company: dreamcatcher-company
+  debut: "2017-01-13"
+  status: active
+  gender: female
+  type: group
+  notes: Group continues; only 4 of 7 members individually signed to Dreamcatcher Company since 2025-03.
+- id: everglow
+  name: EVERGLOW
+  name_ko: 에버글로우
+  aliases:
+    - 에버글로우
+  company: chxxta
+  debut: "2019-03-18"
+  status: active
+  gender: female
+  type: group
+- id: weeekly
+  name: Weeekly
+  name_ko: 위클리
+  aliases:
+    - 위클리
+  company: ist
+  debut: "2020-06-30"
+  status: disbanded
+  gender: female
+  type: group
+  disbanded: "2025-02-26"
+  notes: All members terminated IST contracts 2025-02-26.
+- id: billlie
+  name: Billlie
+  name_ko: 빌리
+  aliases:
+    - 빌리
+  company: mystic-story
+  debut: "2021-11-10"
+  status: active
+  gender: female
+  type: group
+- id: purple-kiss
+  name: PURPLE KISS
+  name_ko: 퍼플키스
+  aliases:
+    - 퍼플키스
+  company: rbw
+  debut: "2021-03-15"
+  status: disbanded
+  gender: female
+  type: group
+  disbanded: "2025-11-16"
+  notes: Disbanded 2025-11-16 (announced 2025-08-04).
+- id: cherry-bullet
+  name: Cherry Bullet
+  name_ko: 체리블렛
+  aliases:
+    - 체리블렛
+  company: fnc
+  debut: "2019-01-21"
+  status: disbanded
+  gender: female
+  type: group
+  disbanded: "2024-04-22"
+  notes: FNC Entertainment (registry previously said Fantagio — wrong). Disbanded 2024-04-22.
+- id: oh-my-girl
+  name: OH MY GIRL
+  name_ko: 오마이걸
+  aliases:
+    - 오마이걸
+  company: wm
+  debut: "2015-04-21"
+  status: active
+  gender: female
+  type: group
+- id: apink
+  name: Apink
+  name_ko: 에이핑크
+  aliases:
+    - 에이핑크
+  company: with-us
+  debut: "2011-04-19"
+  status: active
+  gender: female
+  type: group
+  notes: Group activities via With US Entertainment since 2025-06 (previously IST).
+- id: wjsn
+  name: WJSN
+  name_ko: 우주소녀
+  aliases:
+    - 우주소녀
+  company: starship
+  debut: "2016-02-25"
+  status: active
+  gender: female
+  type: group
+  notes: Comeback Bloom hour 2026-02 after long hiatus; Luda/Dawon no longer under Starship but remain members.
+- id: loona
+  name: LOONA
+  name_ko: 이달의 소녀
+  aliases:
+    - 이달의 소녀
+  company: blockberry-creative
+  debut: "2018-08-20"
+  status: inactive
+  gender: female
+  type: group
+  notes: Blockberry Creative defunct; members now at MODHAUS (ARTMS), CTD ENM, ATRP (Chuu) etc. Kept for historical MV matching.
+- id: meovv
+  name: MEOVV
+  name_ko: 미야오
+  aliases:
+    - 미야오
+  company: the-black-label
+  debut: "2024-09-06"
+  status: active
+  gender: female
+  type: group
+- id: baby-monster
+  name: BABYMONSTER
+  name_ko: 베이비몬스터
+  aliases:
+    - 베이비몬스터
+    - BABYMONS7ER
+  company: yg
+  debut: "2024-04-01"
+  status: active
+  gender: female
+  type: group
+- id: hearts2hearts
+  name: Hearts2Hearts
+  name_ko: 하츠투하츠
+  aliases:
+    - 하츠투하츠
+  company: sm
+  debut: "2025-02-24"
+  status: active
+  gender: female
+  type: group
+- id: izone
+  name: IZ*ONE
+  name_ko: 아이즈원
+  aliases:
+    - IZ*ONE
+    - 아이즈원
+    - IZONE
+  company: off-the-record
+  debut: "2018-10-29"
+  status: disbanded
+  gender: female
+  type: group
+  notes: Co-managed by Off The Record + Swing (CJ ENM). Disbanded 2021-04-29 — predates WAKEONE.
+- id: iu
+  name: IU
+  name_ko: 아이유
+  aliases:
+    - 아이유
+  company: edam
+  debut: "2008-09-18"
+  status: active
+  gender: female
+  type: solo
+- id: taeyeon
+  name: Taeyeon
+  name_ko: 태연
+  aliases:
+    - TAEYEON
+    - 태연
+  company: sm
+  debut: "2015-10-07"
+  status: active
+  gender: female
+  type: solo
+  notes: Solo debut date (group debut 2007-08-05).
+- id: sunmi
+  name: SUNMI
+  name_ko: 선미
+  aliases:
+    - 선미
+  company: abyss
+  debut: "2013-08-26"
+  status: active
+  gender: female
+  type: solo
+  notes: Solo debut date (Wonder Girls debut 2007-02-10).
+- id: chungha
+  name: CHUNG HA
+  name_ko: 청하
+  aliases:
+    - CHUNGHA
+    - 청하
+  company: more-vision
+  debut: "2017-06-07"
+  status: active
+  gender: female
+  type: solo
+- id: hwasa
+  name: HWASA
+  name_ko: 화사
+  aliases:
+    - 화사
+  company: p-nation
+  debut: "2019-02-13"
+  status: active
+  gender: female
+  type: solo
+  notes: Solo debut date (MAMAMOO debut 2014-06-19). MVs on own channel + P NATION.
+- id: kiiikiii
+  name: KiiiKiii
+  name_ko: 키키
+  aliases:
+    - 키키
+  company: starship
+  debut: "2025-03-24"
+  status: active
+  gender: female
+  type: group
+  notes: IVE's label sister group.
+- id: unis
+  name: UNIS
+  name_ko: 유니스
+  aliases:
+    - 유니스
+  company: f-and-f
+  debut: "2024-03-27"
+  status: active
+  gender: female
+  type: group
+  notes: Formed via Universe Ticket.
+- id: badvillain
+  name: BADVILLAIN
+  name_ko: 배드빌런
+  aliases:
+    - 배드빌런
+  company: bpm
+  debut: "2024-06-03"
+  status: active
+  gender: female
+  type: group
+- id: rescene
+  name: RESCENE
+  name_ko: 리센느
+  aliases:
+    - 리센느
+  company: the-muze
+  debut: "2024-03-26"
+  status: active
+  gender: female
+  type: group
+- id: candy-shop
+  name: Candy Shop
+  name_ko: 캔디샵
+  aliases:
+    - 캔디샵
+  company: brave
+  debut: "2024-03-27"
+  status: active
+  gender: female
+  type: group
+- id: say-my-name
+  name: SAY MY NAME
+  name_ko: 세이마이네임
+  aliases:
+    - 세이마이네임
+  company: inkode
+  debut: "2024-10-16"
+  status: active
+  gender: female
+  type: group
+- id: qwer
+  name: QWER
+  name_ko: 큐더블유이알
+  company: tamago
+  debut: "2023-10-18"
+  status: active
+  gender: female
+  type: group
+  notes: Girl band (plays instruments).
+- id: vvup
+  name: VVUP
+  name_ko: 비비업
+  aliases:
+    - 비비업
+  company: ego-ent
+  debut: "2024-04-01"
+  status: active
+  gender: female
+  type: group
+- id: madein
+  name: MADEIN
+  name_ko: 메이딘
+  aliases:
+    - 메이딘
+  company: 143-ent
+  debut: "2024-09-03"
+  status: active
+  gender: female
+  type: group
+  notes: Semi-active; member/agency disputes reported 2026.
+- id: unchild
+  name: UNCHILD
+  name_ko: 언차일드
+  aliases:
+    - 언차일드
+  company: high-up
+  debut: "2026-04-21"
+  status: active
+  gender: female
+  type: group
+  notes: STAYC's label sister group.
+- id: latency
+  name: LATENCY
+  name_ko: 레이턴시
+  aliases:
+    - 레이턴시
+  company: oddinary-records
+  debut: "2026-01-08"
+  status: active
+  gender: female
+  type: group
+  notes: Girl band.
+- id: atheart
+  name: AtHeart
+  name_ko: 앳하트
+  aliases:
+    - 앳하트
+  company: titan-content
+  debut: "2025-08-13"
+  status: active
+  gender: female
+  type: group
+  notes: TITAN CONTENT (LA/Seoul, ex-SM founders).
+- id: katseye
+  name: KATSEYE
+  name_ko: 캣츠아이
+  aliases:
+    - 캣츠아이
+  company: hybe-umg
+  debut: "2024-06-28"
+  status: active
+  gender: female
+  type: group
+  notes: "US-based global group (HYBE x Geffen); scope: global, kept for HYBE LABELS coverage."
+- id: jennie
+  name: JENNIE
+  name_ko: 제니
+  aliases:
+    - 제니
+  company: odd-atelier
+  debut: "2018-11-12"
+  status: active
+  gender: female
+  type: solo
+  member_of: blackpink
+  notes: BLACKPINK member; solo via ODDATELIER/Columbia.
+- id: lisa
+  name: LISA
+  name_ko: 리사
+  aliases:
+    - 리사
+  company: lloud
+  debut: "2021-09-10"
+  status: active
+  gender: female
+  type: solo
+  member_of: blackpink
+  notes: BLACKPINK member; solo via LLOUD/RCA.
+- id: jisoo
+  name: JISOO
+  name_ko: 지수
+  aliases:
+    - 지수
+  company: blissoo
+  debut: "2023-03-31"
+  status: active
+  gender: female
+  type: solo
+  member_of: blackpink
+  notes: BLACKPINK member; solo via BLISSOO/Warner.
+- id: rose
+  name: ROSÉ
+  name_ko: 로제
+  aliases:
+    - 로제
+  company: the-black-label
+  debut: "2021-03-12"
+  status: active
+  gender: female
+  type: solo
+  member_of: blackpink
+  notes: BLACKPINK member; solo via THE BLACK LABEL/Atlantic.
+- id: somi
+  name: JEON SOMI
+  name_ko: 전소미
+  aliases:
+    - SOMI
+    - 전소미
+  company: the-black-label
+  debut: "2019-06-13"
+  status: active
+  gender: female
+  type: solo
+  notes: MVs hosted on THEBLACKLABEL channel.
+- id: yena
+  name: YENA
+  name_ko: 최예나
+  aliases:
+    - 최예나
+    - CHOI YENA
+  company: yuehua
+  debut: "2022-01-17"
+  status: active
+  gender: female
+  type: solo
+  member_of: izone
+  notes: Ex-IZ*ONE.
+- id: chuu
+  name: CHUU
+  name_ko: 츄
+  company: atrp
+  debut: "2023-10-25"
+  status: active
+  gender: female
+  type: solo
+  member_of: loona
+  notes: Ex-LOONA.
+- id: yves
+  name: YVES
+  name_ko: 이브
+  company: paix-per-mil
+  debut: "2024-05-24"
+  status: active
+  gender: female
+  type: solo
+  member_of: loona
+  notes: Ex-LOONA.
+- id: jo-yuri
+  name: JO YURI
+  name_ko: 조유리
+  aliases:
+    - 조유리
+  company: wakeone
+  debut: "2021-10-07"
+  status: active
+  gender: female
+  type: solo
+  member_of: izone
+  notes: Ex-IZ*ONE.
+- id: lee-chaeyeon
+  name: LEE CHAEYEON
+  name_ko: 이채연
+  aliases:
+    - 이채연
+  company: dod
+  debut: "2022-10-12"
+  status: active
+  gender: female
+  type: solo
+  member_of: izone
+  notes: Ex-IZ*ONE; DOD Entertainment since 2025-12 (ex-WM).
+- id: kwon-eunbi
+  name: KWON EUNBI
+  name_ko: 권은비
+  aliases:
+    - 권은비
+  company: rbw
+  debut: "2021-08-24"
+  status: active
+  gender: female
+  type: solo
+  member_of: izone
+  notes: Ex-IZ*ONE; RBW since 2026-04 (ex-Woollim).
+- id: minnie
+  name: MINNIE
+  name_ko: 민니
+  aliases:
+    - 민니
+  company: cube
+  debut: "2025-01-21"
+  status: active
+  gender: female
+  type: solo
+  member_of: gidle
+  notes: i-dle member.
+- id: miyeon
+  name: MIYEON
+  name_ko: 미연
+  aliases:
+    - 미연
+  company: cube
+  debut: "2022-04-27"
+  status: active
+  gender: female
+  type: solo
+  member_of: gidle
+  notes: i-dle member; solo MVs on i-dle/Cube channels.
+- id: yeji
+  name: YEJI
+  name_ko: 예지
+  aliases:
+    - 예지
+  company: jyp
+  debut: "2025-03-10"
+  status: active
+  gender: female
+  type: solo
+  member_of: itzy
+  notes: ITZY member; MVs on JYP channel.
+- id: yuna
+  name: YUNA
+  name_ko: 유나
+  company: jyp
+  debut: "2026-03-23"
+  status: active
+  gender: female
+  type: solo
+  member_of: itzy
+  notes: ITZY member; MVs on JYP channel.
+- id: chaeyoung
+  name: CHAEYOUNG
+  name_ko: 채영
+  aliases:
+    - 채영
+  company: jyp
+  debut: "2025-09-12"
+  status: active
+  gender: female
+  type: solo
+  member_of: twice
+  notes: TWICE member.
+- id: tzuyu
+  name: TZUYU
+  name_ko: 쯔위
+  aliases:
+    - 쯔위
+  company: jyp
+  debut: "2024-09-06"
+  status: active
+  gender: female
+  type: solo
+  member_of: twice
+  notes: TWICE member.
+- id: irene
+  name: IRENE
+  name_ko: 아이린
+  aliases:
+    - 아이린
+  company: sm
+  debut: "2024-11-26"
+  status: active
+  gender: female
+  type: solo
+  member_of: red-velvet
+  notes: Red Velvet member.
+- id: solar
+  name: Solar
+  name_ko: 솔라
+  aliases:
+    - 솔라
+  company: rbw
+  debut: "2020-04-23"
+  status: active
+  gender: female
+  type: solo
+  member_of: mamamoo
+  notes: MAMAMOO member.
+- id: moonbyul
+  name: Moonbyul
+  name_ko: 문별
+  aliases:
+    - 문별
+    - MOON BYUL
+  company: rbw
+  debut: "2018-05-23"
+  status: active
+  gender: female
+  type: solo
+  member_of: mamamoo
+  notes: MAMAMOO member.
+- id: wheein
+  name: Whee In
+  name_ko: 휘인
+  aliases:
+    - 휘인
+    - WHEEIN
+  company: with-us
+  debut: "2021-04-13"
+  status: active
+  gender: female
+  type: solo
+  member_of: mamamoo
+  notes: MAMAMOO member; With US since 2025-07.
+- id: hyolyn
+  name: HYOLYN
+  name_ko: 효린
+  aliases:
+    - 효린
+  company: reh
+  debut: "2013-11-26"
+  status: active
+  gender: female
+  type: solo
+  notes: Ex-SISTAR; own label ReH.
+- id: boa
+  name: BoA
+  name_ko: 보아
+  aliases:
+    - 보아
+  company: bapal
+  debut: "2000-08-25"
+  status: active
+  gender: female
+  type: solo
+  notes: BApal Entertainment since 2026-03 (ex-SM); own channel TBD — legacy MVs on SMTOWN.

@@ -1,0 +1,217 @@
+# Companies / labels referenced by groups.yaml and channels.yaml.
+# Fact-checked 2026-07-10 (web research + cross-referencing); update via PR.
+
+- id: hybe
+  name: HYBE
+  name_ko: 하이브
+- id: ador
+  name: ADOR
+  name_ko: 어도어
+  parent: hybe
+- id: source-music
+  name: Source Music
+  name_ko: 쏘스뮤직
+  parent: hybe
+- id: belift-lab
+  name: BELIFT LAB
+  name_ko: 빌리프랩
+  parent: hybe
+  notes: ILLIT
+- id: pledis
+  name: Pledis Entertainment
+  name_ko: 플레디스엔터테인먼트
+  parent: hybe
+  notes: fromis_9 until 2024-12 (historical)
+- id: hybe-umg
+  name: HYBE x Geffen (HYBE UMG)
+  name_ko: ""
+  parent: hybe
+  notes: KATSEYE — US-based joint venture
+- id: asnd
+  name: ASND
+  name_ko: 에이에스엔디
+  notes: fromis_9 since 2025
+- id: kakao-ent
+  name: Kakao Entertainment
+  name_ko: 카카오엔터테인먼트
+- id: sm
+  name: SM Entertainment
+  name_ko: SM엔터테인먼트
+- id: jyp
+  name: JYP Entertainment
+  name_ko: JYP엔터테인먼트
+- id: yg
+  name: YG Entertainment
+  name_ko: YG엔터테인먼트
+- id: starship
+  name: Starship Entertainment
+  name_ko: 스타쉽엔터테인먼트
+  parent: kakao-ent
+- id: cube
+  name: Cube Entertainment
+  name_ko: 큐브엔터테인먼트
+- id: rbw
+  name: RBW
+  name_ko: 알비더블유
+- id: wm
+  name: WM Entertainment
+  name_ko: WM엔터테인먼트
+  parent: rbw
+- id: wakeone
+  name: WAKEONE
+  name_ko: 웨이크원
+  notes: CJ ENM subsidiary
+- id: klap
+  name: KLAP Entertainment
+  name_ko: 클랩엔터테인먼트
+  notes: Kep1er day-to-day management since 2024-09; WAKEONE remains label
+- id: the-black-label
+  name: THE BLACK LABEL
+  name_ko: 더블랙레이블
+- id: odd-atelier
+  name: ODDATELIER
+  name_ko: 오드아뜰리에
+  notes: JENNIE (founded 2024)
+- id: lloud
+  name: LLOUD
+  name_ko: ""
+  notes: LISA (founded 2024)
+- id: blissoo
+  name: BLISSOO
+  name_ko: ""
+  notes: JISOO (founded 2024)
+- id: attrakt
+  name: ATTRAKT
+  name_ko: 어트랙트
+  notes: FIFTY FIFTY
+- id: modhaus
+  name: MODHAUS
+  name_ko: 모드하우스
+- id: high-up
+  name: High Up Entertainment
+  name_ko: 하이업엔터테인먼트
+- id: ist
+  name: IST Entertainment
+  name_ko: 아이에스티엔터테인먼트
+  parent: kakao-ent
+  notes: Weeekly (defunct 2025-02); Apink historical
+- id: with-us
+  name: With US Entertainment
+  name_ko: ""
+  notes: Apink group activities since 2025-06; Wheein
+- id: fnc
+  name: FNC Entertainment
+  name_ko: FNC엔터테인먼트
+  notes: Cherry Bullet (historical)
+- id: blockberry-creative
+  name: Blockberry Creative
+  name_ko: 블록베리크리에이티브
+  notes: LOONA — company defunct; historical only
+- id: mystic-story
+  name: Mystic Story
+  name_ko: 미스틱스토리
+  notes: Independent of SM since 2025-08
+- id: dreamcatcher-company
+  name: Dreamcatcher Company
+  name_ko: 드림캐쳐컴퍼니
+- id: chxxta
+  name: CHXXTA COMPANY
+  name_ko: 치타컴퍼니
+  notes: EVERGLOW since 2025-09
+- id: yuehua
+  name: Yuehua Entertainment
+  name_ko: 위에화엔터테인먼트
+  notes: YENA; EVERGLOW until 2025-06
+- id: s2
+  name: S2 Entertainment
+  name_ko: 에스투엔터테인먼트
+  notes: KISS OF LIFE
+- id: edam
+  name: EDAM Entertainment
+  name_ko: 이담엔터테인먼트
+  parent: kakao-ent
+  notes: IU
+- id: abyss
+  name: ABYSS Company
+  name_ko: 어비스컴퍼니
+  notes: SUNMI
+- id: more-vision
+  name: MORE VISION
+  name_ko: 모어비전
+  notes: CHUNG HA
+- id: p-nation
+  name: P NATION
+  name_ko: 피네이션
+  notes: HWASA
+- id: f-and-f
+  name: F&F Entertainment
+  name_ko: 에프앤에프엔터테인먼트
+  notes: UNIS
+- id: the-muze
+  name: THE MUZE Entertainment
+  name_ko: 더뮤즈엔터테인먼트
+  notes: RESCENE
+- id: brave
+  name: Brave Entertainment
+  name_ko: 브레이브엔터테인먼트
+  notes: Candy Shop
+- id: inkode
+  name: iNKODE
+  name_ko: 잉코드
+  notes: SAY MY NAME
+- id: tamago
+  name: Tamago Production (3Y Corporation)
+  name_ko: 타마고프로덕션
+  notes: QWER
+- id: ego-ent
+  name: EgoENT
+  name_ko: ""
+  notes: VVUP
+- id: 143-ent
+  name: 143 Entertainment
+  name_ko: 143엔터테인먼트
+  notes: MADEIN
+- id: oddinary-records
+  name: ODDINARY RECORDS
+  name_ko: ""
+  notes: LATENCY — verify legal entity via PR
+- id: titan-content
+  name: TITAN CONTENT
+  name_ko: 타이탄콘텐츠
+  notes: AtHeart
+- id: atrp
+  name: ATRP
+  name_ko: 에이티알피
+  notes: Chuu (ex-LOONA); Arin individually
+- id: paix-per-mil
+  name: PAIX PER MIL
+  name_ko: ""
+  notes: Yves (ex-LOONA)
+- id: dod
+  name: DOD Entertainment
+  name_ko: 디오디엔터테인먼트
+  notes: Lee Chaeyeon since 2025-12
+- id: reh
+  name: ReH Entertainment
+  name_ko: ""
+  notes: Hyolyn (own label since 2025; formerly bridʒ)
+- id: bapal
+  name: BApal Entertainment
+  name_ko: ""
+  notes: BoA since 2026-03 (ex-SM)
+- id: off-the-record
+  name: Off The Record Entertainment
+  name_ko: 오프더레코드엔터테인먼트
+  notes: IZ*ONE (co-managed with Swing, CJ ENM) — historical
+- id: bpm
+  name: BPM Entertainment
+  name_ko: 빅플래닛메이드엔터
+  notes: BADVILLAIN; VIVIZ until 2026-03
+- id: 1thek
+  name: 1theK
+  name_ko: 원더케이
+  type: distributor
+- id: stone-music
+  name: Stone Music Entertainment
+  name_ko: 스톤뮤직엔터테인먼트
+  type: distributor

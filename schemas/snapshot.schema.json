@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/local/kpop-mv-data/schemas/snapshot.schema.json",
+  "title": "MV public stats snapshot",
+  "description": "A single point-in-time public stats observation. No derived promotion metrics.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "video_id",
+    "snapshot_at",
+    "view_count",
+    "data_source",
+    "collector_version"
+  ],
+  "properties": {
+    "video_id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9_-]{11}$"
+    },
+    "channel_id": {
+      "type": "string",
+      "pattern": "^UC[A-Za-z0-9_-]{22}$"
+    },
+    "snapshot_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "view_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "like_count": {
+      "type": ["integer", "null"],
+      "minimum": 0
+    },
+    "comment_count": {
+      "type": ["integer", "null"],
+      "minimum": 0
+    },
+    "data_source": {
+      "type": "string",
+      "enum": ["youtube_data_api_v3"]
+    },
+    "collector_version": {
+      "type": "string",
+      "minLength": 1
+    }
+  }
+}

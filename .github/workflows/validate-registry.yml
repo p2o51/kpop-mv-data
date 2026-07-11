@@ -1,0 +1,26 @@
+name: Validate registry
+
+on:
+  push:
+    paths:
+      - "registry/**"
+      - "scripts/**"
+      - "schemas/**"
+  pull_request:
+    paths:
+      - "registry/**"
+      - "scripts/**"
+      - "schemas/**"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Install dependencies
+        run: npm ci
+      - name: Validate registry YAML
+        run: node scripts/validate-registry.mjs

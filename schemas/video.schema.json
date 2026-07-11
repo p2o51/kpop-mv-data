@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/local/kpop-mv-data/schemas/video.schema.json",
+  "title": "Registry video",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["youtube_video_id", "group", "channel", "video_class", "active"],
+  "properties": {
+    "youtube_video_id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9_-]{11}$"
+    },
+    "group": { "type": "string", "minLength": 1 },
+    "channel": { "type": "string", "minLength": 1 },
+    "title": { "type": "string" },
+    "published_at": { "type": "string", "format": "date-time" },
+    "video_class": {
+      "type": "string",
+      "enum": [
+        "main_mv",
+        "duplicate_upload",
+        "japanese_version",
+        "performance_video",
+        "dance_practice",
+        "visualizer",
+        "audio_only",
+        "short_version",
+        "other"
+      ]
+    },
+    "track_title": { "type": "string" },
+    "active": { "type": "boolean" },
+    "notes": { "type": "string" }
+  }
+}

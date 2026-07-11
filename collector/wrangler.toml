@@ -1,0 +1,23 @@
+name = "kpop-mv-collector"
+main = "src/index.ts"
+compatibility_date = "2026-07-01"
+workers_dev = true
+
+# Cron every 10 minutes — scheduler decides which videos are due.
+[triggers]
+crons = ["*/10 * * * *"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "kpop-mv"
+database_id = "ea7b0997-5afd-4dbb-bbc9-4f3eb7005ca3"
+preview_database_id = "local-kpop-mv"
+
+[[r2_buckets]]
+binding = "SNAPSHOTS"
+bucket_name = "kpop-mv-snapshots"
+preview_bucket_name = "kpop-mv-snapshots-preview"
+
+[vars]
+COLLECTOR_VERSION = "0.2.0"
+# Set YOUTUBE_API_KEY via `wrangler secret put YOUTUBE_API_KEY`

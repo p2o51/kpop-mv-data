@@ -1,0 +1,28 @@
+{
+  "name": "kpop-mv-data",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Open K-pop MV view-count infrastructure. Facts only — no promotion estimates in public outputs.",
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validate-registry.mjs",
+    "verify-channels": "node scripts/verify-channels.mjs",
+    "discover": "node scripts/discover-videos.mjs",
+    "clean-videos": "node scripts/clean-videos.mjs",
+    "sync-sql": "node scripts/sync-registry-sql.mjs",
+    "collector:dev": "npm run --workspace=collector dev",
+    "collector:deploy": "npm run --workspace=collector deploy",
+    "web:dev": "npm run --workspace=web dev",
+    "web:build": "npm run --workspace=web build"
+  },
+  "workspaces": [
+    "collector",
+    "web"
+  ],
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

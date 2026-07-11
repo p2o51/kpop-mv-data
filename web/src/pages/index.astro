@@ -1,0 +1,106 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { loadRegistry } from "../lib/registry";
+
+const { companies, groups, channels, videos } = loadRegistry();
+const activeGroups = groups.filter((g) => g.status === "active");
+---
+
+<Layout title="K-pop MV Data">
+  <header class="hero">
+    <p class="eyebrow">Open registry · public facts only</p>
+    <h1>kpop-mv-data</h1>
+    <p class="lede">
+      Girl-group-first YouTube MV view snapshots. No promotion estimates, no
+      “注水” rankings — just reproducible public counters and an editable catalog.
+    </p>
+  </header>
+
+  <section class="stats" aria-label="Registry counts">
+    <div>
+      <strong>{channels.length}</strong>
+      <span>channels</span>
+    </div>
+    <div>
+      <strong>{activeGroups.length}</strong>
+      <span>active acts</span>
+    </div>
+    <div>
+      <strong>{companies.length}</strong>
+      <span>companies</span>
+    </div>
+    <div>
+      <strong>{videos.length}</strong>
+      <span>tracked MVs</span>
+    </div>
+  </section>
+
+  <section>
+    <h2>What this publishes</h2>
+    <ul class="plain">
+      <li>Daily / hourly <code>view_count</code> · <code>like_count</code> snapshots</li>
+      <li>Company · group · channel · video classification registry</li>
+      <li>Collection methodology and checksummed data manifests</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Seed channels</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Channel</th>
+          <th>Kind</th>
+          <th>Company</th>
+          <th>Priority</th>
+        </tr>
+      </thead>
+      <tbody>
+        {
+          channels.map((ch) => (
+            <tr>
+              <td>
+                <a
+                  href={`https://www.youtube.com/channel/${ch.youtube_channel_id}`}
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  {ch.title}
+                </a>
+              </td>
+              <td>{ch.kind}</td>
+              <td>{ch.company}</td>
+              <td>{ch.priority}</td>
+            </tr>
+          ))
+        }
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>Tracked acts (v0)</h2>
+    <div class="grid">
+      {
+        groups.map((g) => (
+          <article class="act">
+            <h3>{g.name}</h3>
+            <p>{g.name_ko}</p>
+            <p class="meta">
+              {g.company} · {g.type} · {g.status}
+            </p>
+          </article>
+        ))
+      }
+    </div>
+  </section>
+
+  <section class="note">
+    <h2>Boundary</h2>
+    <p>
+      Charts-unrecognized / promotion estimates belong in a <em>private</em>
+      analysis project that only reads these public snapshots. This site will
+      never ship those labels.
+    </p>
+  </section>
+</Layout>

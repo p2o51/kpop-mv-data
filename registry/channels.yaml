@@ -1,0 +1,708 @@
+# YouTube channels to poll.
+# Every ID verified via YouTube Data API channels.list on 2026-07-10
+# (fake/squatter channels with near-zero subscribers were explicitly weeded out).
+# Japan-only channels (TWICE JAPAN etc.) are deliberately out of scope for v0.
+
+- id: hybe-labels
+  youtube_channel_id: UC3IZKseVpdzPSBaWxBxundA
+  uploads_playlist_id: UU3IZKseVpdzPSBaWxBxundA
+  title: HYBE LABELS
+  company: hybe
+  kind: label
+  priority: high
+  track_groups:
+    - le-sserafim
+    - illit
+    - newjeans
+    - fromis-9
+    - katseye
+  notes: Hosts title-track MVs for most HYBE girl groups.
+- id: smtown
+  youtube_channel_id: UCEf_Bc-KVd7onSeifS3py9g
+  uploads_playlist_id: UUEf_Bc-KVd7onSeifS3py9g
+  title: SMTOWN
+  company: sm
+  kind: label
+  priority: high
+  track_groups:
+    - aespa
+    - red-velvet
+    - girls-generation
+    - hearts2hearts
+    - taeyeon
+    - irene
+    - boa
+- id: jyp-entertainment
+  youtube_channel_id: UCaO6TYtlC8U5ttz62hTrZgg
+  uploads_playlist_id: UUaO6TYtlC8U5ttz62hTrZgg
+  title: JYP Entertainment
+  company: jyp
+  kind: label
+  priority: high
+  track_groups:
+    - twice
+    - itzy
+    - nmixx
+    - yeji
+    - yuna
+    - chaeyoung
+    - tzuyu
+- id: yg-entertainment
+  youtube_channel_id: UCQi67q4kGdmnJaRzX81uK5g
+  uploads_playlist_id: UUQi67q4kGdmnJaRzX81uK5g
+  title: YG ENTERTAINMENT
+  company: yg
+  kind: label
+  priority: normal
+  track_groups:
+    - blackpink
+    - baby-monster
+- id: starship-ent
+  youtube_channel_id: UCYDmx2Sfpnaxg488yBpZIGg
+  uploads_playlist_id: UUYDmx2Sfpnaxg488yBpZIGg
+  title: STARSHIP
+  company: starship
+  kind: label
+  priority: high
+  track_groups:
+    - ive
+    - wjsn
+    - kiiikiii
+- id: cube-ent
+  youtube_channel_id: UC3lz95UPhKJW1aS3_za6SuQ
+  uploads_playlist_id: UU3lz95UPhKJW1aS3_za6SuQ
+  title: United CUBE
+  company: cube
+  kind: label
+  priority: low
+  track_groups:
+    - gidle
+    - minnie
+    - miyeon
+- id: the-black-label
+  youtube_channel_id: UCg8ZzloDPTrOiGztK0C9txQ
+  uploads_playlist_id: UUg8ZzloDPTrOiGztK0C9txQ
+  title: THEBLACKLABEL
+  company: the-black-label
+  kind: label
+  priority: high
+  track_groups:
+    - meovv
+    - somi
+    - rose
+- id: high-up
+  youtube_channel_id: UCBEu7Q6arDR7GdfnwBL2AUw
+  uploads_playlist_id: UUBEu7Q6arDR7GdfnwBL2AUw
+  title: High Up Ent
+  company: high-up
+  kind: label
+  priority: low
+  track_groups:
+    - stayc
+    - unchild
+- id: bpm-ent
+  youtube_channel_id: UC6YMr57knEIYXOOKMmYAFXQ
+  uploads_playlist_id: UU6YMr57knEIYXOOKMmYAFXQ
+  title: BPM Entertainment
+  company: bpm
+  kind: label
+  priority: normal
+  track_groups:
+    - badvillain
+    - viviz
+  notes: VIVIZ catalog remains here after their 2026-03 departure.
+- id: p-nation
+  youtube_channel_id: UCZOA7I_vjrxLuLGatPekGoA
+  uploads_playlist_id: UUZOA7I_vjrxLuLGatPekGoA
+  title: P NATION Official
+  company: p-nation
+  kind: label
+  priority: low
+  track_groups:
+    - hwasa
+- id: abyss-company
+  youtube_channel_id: UCihqDiBUjaLOK2cPd_qg9EQ
+  uploads_playlist_id: UUihqDiBUjaLOK2cPd_qg9EQ
+  title: ABYSS COMPANY
+  company: abyss
+  kind: label
+  priority: low
+  track_groups:
+    - sunmi
+- id: blackpink-official
+  youtube_channel_id: UCOmHUn--16B90oW2L6FRR3A
+  uploads_playlist_id: UUOmHUn--16B90oW2L6FRR3A
+  title: BLACKPINK
+  company: yg
+  kind: artist
+  priority: high
+  track_groups:
+    - blackpink
+- id: babymonster-official
+  youtube_channel_id: UCqwUnggBBct-AY2lAdI88jQ
+  uploads_playlist_id: UUqwUnggBBct-AY2lAdI88jQ
+  title: BABYMONSTER
+  company: yg
+  kind: artist
+  priority: high
+  track_groups:
+    - baby-monster
+- id: twice-official
+  youtube_channel_id: UCzgxx_DM2Dcb9Y1spb9mUJA
+  uploads_playlist_id: UUzgxx_DM2Dcb9Y1spb9mUJA
+  title: TWICE
+  company: jyp
+  kind: artist
+  priority: high
+  track_groups:
+    - twice
+- id: itzy-official
+  youtube_channel_id: UCDhM2k2Cua-JdobAh5moMFg
+  uploads_playlist_id: UUDhM2k2Cua-JdobAh5moMFg
+  title: ITZY
+  company: jyp
+  kind: artist
+  priority: normal
+  track_groups:
+    - itzy
+- id: nmixx-official
+  youtube_channel_id: UCnUAyD4t2LkvW68YrDh7fDg
+  uploads_playlist_id: UUnUAyD4t2LkvW68YrDh7fDg
+  title: NMIXX
+  company: jyp
+  kind: artist
+  priority: normal
+  track_groups:
+    - nmixx
+- id: aespa-official
+  youtube_channel_id: UC9GtSLeksfK4yuJ_g1lgQbg
+  uploads_playlist_id: UU9GtSLeksfK4yuJ_g1lgQbg
+  title: aespa
+  company: sm
+  kind: artist
+  priority: normal
+  track_groups:
+    - aespa
+- id: red-velvet-official
+  youtube_channel_id: UCk9GmdlDTBfgGRb7vXeRMoQ
+  uploads_playlist_id: UUk9GmdlDTBfgGRb7vXeRMoQ
+  title: Red Velvet
+  company: sm
+  kind: artist
+  priority: normal
+  track_groups:
+    - red-velvet
+- id: girls-generation-official
+  youtube_channel_id: UCPENYtHg4Xhmm6oX8zaQA7Q
+  uploads_playlist_id: UUPENYtHg4Xhmm6oX8zaQA7Q
+  title: GIRLS' GENERATION
+  company: sm
+  kind: artist
+  priority: low
+  track_groups:
+    - girls-generation
+- id: hearts2hearts-official
+  youtube_channel_id: UC7Q3HUnJA3nvjZR2JeMn2Cw
+  uploads_playlist_id: UU7Q3HUnJA3nvjZR2JeMn2Cw
+  title: Hearts2Hearts
+  company: sm
+  kind: artist
+  priority: normal
+  track_groups:
+    - hearts2hearts
+- id: ive-official
+  youtube_channel_id: UC-Fnix71vRP64WXeo0ikd0Q
+  uploads_playlist_id: UU-Fnix71vRP64WXeo0ikd0Q
+  title: IVE
+  company: starship
+  kind: artist
+  priority: normal
+  track_groups:
+    - ive
+- id: wjsn-official
+  youtube_channel_id: UCVaIiqzfKQsi7Qw4-X8TmmA
+  uploads_playlist_id: UUVaIiqzfKQsi7Qw4-X8TmmA
+  title: 우주소녀 WJSN
+  company: starship
+  kind: artist
+  priority: low
+  track_groups:
+    - wjsn
+- id: kiiikiii-official
+  youtube_channel_id: UCaHwGJXFb28TekZMf7iFg5Q
+  uploads_playlist_id: UUaHwGJXFb28TekZMf7iFg5Q
+  title: KiiiKiii
+  company: starship
+  kind: artist
+  priority: normal
+  track_groups:
+    - kiiikiii
+- id: le-sserafim-official
+  youtube_channel_id: UCs-QBT4qkj_YiQw1ZntDO3g
+  uploads_playlist_id: UUs-QBT4qkj_YiQw1ZntDO3g
+  title: LE SSERAFIM
+  company: source-music
+  kind: artist
+  priority: normal
+  track_groups:
+    - le-sserafim
+- id: newjeans-official
+  youtube_channel_id: UCMki_UkHb4qSc0qyEcOHHJw
+  uploads_playlist_id: UUMki_UkHb4qSc0qyEcOHHJw
+  title: NewJeans
+  company: ador
+  kind: artist
+  priority: normal
+  track_groups:
+    - newjeans
+- id: illit-official
+  youtube_channel_id: UCEpFoWeCMCo5z3EvWaz6hQQ
+  uploads_playlist_id: UUEpFoWeCMCo5z3EvWaz6hQQ
+  title: ILLIT
+  company: belift-lab
+  kind: artist
+  priority: normal
+  track_groups:
+    - illit
+- id: fromis9-official
+  youtube_channel_id: UCXbRURMKT3H_w8dT-DWLIxA
+  uploads_playlist_id: UUXbRURMKT3H_w8dT-DWLIxA
+  title: fromis_9
+  company: asnd
+  kind: artist
+  priority: normal
+  track_groups:
+    - fromis-9
+  notes: ASND-era channel; hosts MVs since 2025.
+- id: gidle-official
+  youtube_channel_id: UCritGVo7pLJLUS8wEu32vow
+  uploads_playlist_id: UUritGVo7pLJLUS8wEu32vow
+  title: i-dle (아이들)
+  company: cube
+  kind: artist
+  priority: high
+  track_groups:
+    - gidle
+    - minnie
+    - miyeon
+- id: mamamoo-official
+  youtube_channel_id: UCuhAUMLzJxlP1W7mEk0_6lA
+  uploads_playlist_id: UUuhAUMLzJxlP1W7mEk0_6lA
+  title: MAMAMOO
+  company: rbw
+  kind: artist
+  priority: normal
+  track_groups:
+    - mamamoo
+    - solar
+    - moonbyul
+- id: stayc-official
+  youtube_channel_id: UCod5V2dpnpJLklGvVOv5FcQ
+  uploads_playlist_id: UUod5V2dpnpJLklGvVOv5FcQ
+  title: STAYC
+  company: high-up
+  kind: artist
+  priority: normal
+  track_groups:
+    - stayc
+- id: kep1er-official
+  youtube_channel_id: UC8whlOg70m2Yr3qSMjUhh0g
+  uploads_playlist_id: UU8whlOg70m2Yr3qSMjUhh0g
+  title: Kep1er
+  company: wakeone
+  kind: artist
+  priority: normal
+  track_groups:
+    - kep1er
+- id: izna-official
+  youtube_channel_id: UCfbYNlxgLuKJXQZEhkMmaCQ
+  uploads_playlist_id: UUfbYNlxgLuKJXQZEhkMmaCQ
+  title: izna (이즈나)
+  company: wakeone
+  kind: artist
+  priority: normal
+  track_groups:
+    - izna
+- id: kiss-of-life-official
+  youtube_channel_id: UCvEEeBssb4XxIfWWIB8IjMw
+  uploads_playlist_id: UUvEEeBssb4XxIfWWIB8IjMw
+  title: KISS OF LIFE
+  company: s2
+  kind: artist
+  priority: normal
+  track_groups:
+    - kiss-of-life
+- id: fifty-fifty-official
+  youtube_channel_id: UCJEER74X9kBenMT_x9iK9Mw
+  uploads_playlist_id: UUJEER74X9kBenMT_x9iK9Mw
+  title: FIFTY FIFTY Official
+  company: attrakt
+  kind: artist
+  priority: normal
+  track_groups:
+    - fifty-fifty
+- id: triples-official
+  youtube_channel_id: UCJnL-TBcsYrF2SLs7tmiC8Q
+  uploads_playlist_id: UUJnL-TBcsYrF2SLs7tmiC8Q
+  title: tripleS official
+  company: modhaus
+  kind: artist
+  priority: normal
+  track_groups:
+    - triple-s
+- id: artms-official
+  youtube_channel_id: UChXC6ok0LaZIpf-50SIFf0Q
+  uploads_playlist_id: UUhXC6ok0LaZIpf-50SIFf0Q
+  title: Official ARTMS
+  company: modhaus
+  kind: artist
+  priority: normal
+  track_groups:
+    - artms
+- id: viviz-official
+  youtube_channel_id: UCWFMjDuWKlct0jy89k2kkRA
+  uploads_playlist_id: UUWFMjDuWKlct0jy89k2kkRA
+  title: VIVIZ
+  kind: artist
+  priority: normal
+  track_groups:
+    - viviz
+  notes: Channel ownership may change after BPM departure.
+- id: dreamcatcher-official
+  youtube_channel_id: UCijULR2sXLutCRBtW3_WEfA
+  uploads_playlist_id: UUijULR2sXLutCRBtW3_WEfA
+  title: Dreamcatcher official
+  company: dreamcatcher-company
+  kind: artist
+  priority: normal
+  track_groups:
+    - dreamcatcher
+- id: everglow-official
+  youtube_channel_id: UCbcvke2YXvSAhTXSDMEAwpA
+  uploads_playlist_id: UUbcvke2YXvSAhTXSDMEAwpA
+  title: EVERGLOW (에버글로우)
+  company: chxxta
+  kind: artist
+  priority: normal
+  track_groups:
+    - everglow
+  notes: CHXXTA-era channel (2025-09+).
+- id: everglow-yuehua
+  youtube_channel_id: UCVXzBnzP5i5W-3snrxu8kfg
+  uploads_playlist_id: UUVXzBnzP5i5W-3snrxu8kfg
+  title: EVERGLOW
+  company: yuehua
+  kind: artist
+  priority: low
+  track_groups:
+    - everglow
+  notes: Yuehua-era catalog (pre-2025-06).
+- id: oh-my-girl-official
+  youtube_channel_id: UC-qYkzKFdekoEniRu_FS3zg
+  uploads_playlist_id: UU-qYkzKFdekoEniRu_FS3zg
+  title: OH MY GIRL
+  company: wm
+  kind: artist
+  priority: normal
+  track_groups:
+    - oh-my-girl
+- id: apink-official
+  youtube_channel_id: UCmW1Pq56lA-k-GWpX1z8WPg
+  uploads_playlist_id: UUmW1Pq56lA-k-GWpX1z8WPg
+  title: Apink (에이핑크)
+  company: with-us
+  kind: artist
+  priority: normal
+  track_groups:
+    - apink
+- id: billlie-official
+  youtube_channel_id: UCyc9sUCxELTDK9vELO5Fzeg
+  uploads_playlist_id: UUyc9sUCxELTDK9vELO5Fzeg
+  title: Billlie
+  company: mystic-story
+  kind: artist
+  priority: normal
+  track_groups:
+    - billlie
+- id: meovv-official
+  youtube_channel_id: UCowiwt93gqGlNG4k5VDxO-w
+  uploads_playlist_id: UUowiwt93gqGlNG4k5VDxO-w
+  title: MEOVV
+  company: the-black-label
+  kind: artist
+  priority: normal
+  track_groups:
+    - meovv
+- id: unis-official
+  youtube_channel_id: UCspnElmzSLPhrZJDG9v7JWw
+  uploads_playlist_id: UUspnElmzSLPhrZJDG9v7JWw
+  title: UNIS
+  company: f-and-f
+  kind: artist
+  priority: normal
+  track_groups:
+    - unis
+- id: badvillain-official
+  youtube_channel_id: UCh0KpQuSJ9m0DaENZmnYwzw
+  uploads_playlist_id: UUh0KpQuSJ9m0DaENZmnYwzw
+  title: BADVILLAIN
+  company: bpm
+  kind: artist
+  priority: normal
+  track_groups:
+    - badvillain
+- id: rescene-official
+  youtube_channel_id: UCtKtCiaWRz-d3EZn2xd1mdA
+  uploads_playlist_id: UUtKtCiaWRz-d3EZn2xd1mdA
+  title: RESCENE
+  company: the-muze
+  kind: artist
+  priority: normal
+  track_groups:
+    - rescene
+- id: candy-shop-official
+  youtube_channel_id: UC91GO3fs8uYWbJz1PBP92Ww
+  uploads_playlist_id: UU91GO3fs8uYWbJz1PBP92Ww
+  title: Candy Shop
+  company: brave
+  kind: artist
+  priority: normal
+  track_groups:
+    - candy-shop
+- id: say-my-name-official
+  youtube_channel_id: UC-we351yXoKcODFHiKrC84Q
+  uploads_playlist_id: UU-we351yXoKcODFHiKrC84Q
+  title: SAY MY NAME
+  company: inkode
+  kind: artist
+  priority: normal
+  track_groups:
+    - say-my-name
+- id: qwer-official
+  youtube_channel_id: UCgD0APk2x9uBlLM0UsmhQjw
+  uploads_playlist_id: UUgD0APk2x9uBlLM0UsmhQjw
+  title: QWER
+  company: tamago
+  kind: artist
+  priority: normal
+  track_groups:
+    - qwer
+- id: vvup-official
+  youtube_channel_id: UCOCmok56Fc0yODLljdcOS9Q
+  uploads_playlist_id: UUOCmok56Fc0yODLljdcOS9Q
+  title: VVUP
+  company: ego-ent
+  kind: artist
+  priority: normal
+  track_groups:
+    - vvup
+- id: madein-official
+  youtube_channel_id: UCQZy15R31id90AlisaiOg2Q
+  uploads_playlist_id: UUQZy15R31id90AlisaiOg2Q
+  title: MADEIN
+  company: 143-ent
+  kind: artist
+  priority: normal
+  track_groups:
+    - madein
+- id: unchild-official
+  youtube_channel_id: UCpDgvA1XqZbA7WBiv3DMCXA
+  uploads_playlist_id: UUpDgvA1XqZbA7WBiv3DMCXA
+  title: UNCHILD
+  company: high-up
+  kind: artist
+  priority: normal
+  track_groups:
+    - unchild
+- id: latency-official
+  youtube_channel_id: UC_V_FDh1B4-LS_813MjS2tA
+  uploads_playlist_id: UU_V_FDh1B4-LS_813MjS2tA
+  title: LATENCY
+  company: oddinary-records
+  kind: artist
+  priority: normal
+  track_groups:
+    - latency
+- id: atheart-official
+  youtube_channel_id: UCgSDdHK0MNXOHv7oBC2dHXA
+  uploads_playlist_id: UUgSDdHK0MNXOHv7oBC2dHXA
+  title: AtHeart
+  company: titan-content
+  kind: artist
+  priority: normal
+  track_groups:
+    - atheart
+- id: katseye-official
+  youtube_channel_id: UCA61H4fWOMHikLcUFKyQUog
+  uploads_playlist_id: UUA61H4fWOMHikLcUFKyQUog
+  title: KATSEYE
+  company: hybe-umg
+  kind: artist
+  priority: normal
+  track_groups:
+    - katseye
+- id: iu-official
+  youtube_channel_id: UC3SyT4_WLHzN7JmHQwKQZww
+  uploads_playlist_id: UU3SyT4_WLHzN7JmHQwKQZww
+  title: 이지금 [IU Official]
+  company: edam
+  kind: artist
+  priority: normal
+  track_groups:
+    - iu
+- id: taeyeon-official
+  youtube_channel_id: UCFPI8MI3zmzTlV4W-oSy-Ig
+  uploads_playlist_id: UUFPI8MI3zmzTlV4W-oSy-Ig
+  title: TAEYEON Official
+  company: sm
+  kind: artist
+  priority: low
+  track_groups:
+    - taeyeon
+- id: sunmi-official
+  youtube_channel_id: UCsVpgRB8YHLWA0ZrkhtHvTA
+  uploads_playlist_id: UUsVpgRB8YHLWA0ZrkhtHvTA
+  title: 선미 SUNMI
+  company: abyss
+  kind: artist
+  priority: normal
+  track_groups:
+    - sunmi
+- id: chungha-official
+  youtube_channel_id: UCtC14nS1y4T54RJMk4t08Uw
+  uploads_playlist_id: UUtC14nS1y4T54RJMk4t08Uw
+  title: CHUNG HA 청하
+  company: more-vision
+  kind: artist
+  priority: normal
+  track_groups:
+    - chungha
+  notes: MORE VISION-era channel; hosts current MVs.
+- id: chungha-mnh
+  youtube_channel_id: UC9Gxb0gMCh3EPIDLQXeQUog
+  uploads_playlist_id: UU9Gxb0gMCh3EPIDLQXeQUog
+  title: CHUNG HA_Official
+  company: more-vision
+  kind: artist
+  priority: low
+  track_groups:
+    - chungha
+  notes: MNH-era catalog channel (Gotta Go etc.).
+- id: purple-kiss-official
+  youtube_channel_id: UCor8nQnEdMs4eBcU-uVBQ8g
+  uploads_playlist_id: UUor8nQnEdMs4eBcU-uVBQ8g
+  title: PURPLE KISS
+  company: rbw
+  kind: artist
+  priority: low
+  track_groups:
+    - purple-kiss
+  notes: Group disbanded 2025-11; kept for in-window catalog.
+- id: hwasa-official
+  youtube_channel_id: UCiM8arBZ-GyuBFG3wy6fEgw
+  uploads_playlist_id: UUiM8arBZ-GyuBFG3wy6fEgw
+  title: HWASA
+  company: p-nation
+  kind: artist
+  priority: normal
+  track_groups:
+    - hwasa
+- id: jennie-official
+  youtube_channel_id: UCNYi_zGmR519r5gYdOKLTjQ
+  uploads_playlist_id: UUNYi_zGmR519r5gYdOKLTjQ
+  title: JENNIE
+  company: odd-atelier
+  kind: artist
+  priority: normal
+  track_groups:
+    - jennie
+- id: lloud-official
+  youtube_channel_id: UC6-BgjsBa5R3PZQ_kZ8hKPg
+  uploads_playlist_id: UU6-BgjsBa5R3PZQ_kZ8hKPg
+  title: LLOUD Official
+  company: lloud
+  kind: artist
+  priority: normal
+  track_groups:
+    - lisa
+- id: jisoo-official
+  youtube_channel_id: UCRE-097LGtx_Zo7LrHvkycA
+  uploads_playlist_id: UURE-097LGtx_Zo7LrHvkycA
+  title: JISOO
+  company: blissoo
+  kind: artist
+  priority: normal
+  track_groups:
+    - jisoo
+- id: rose-official
+  youtube_channel_id: UCBo1hnzxV9rz3WVsv__Rn1g
+  uploads_playlist_id: UUBo1hnzxV9rz3WVsv__Rn1g
+  title: ROSÉ
+  company: the-black-label
+  kind: artist
+  priority: normal
+  track_groups:
+    - rose
+- id: yena-official
+  youtube_channel_id: UCkrDEGNM3mqZXHk2MfnOjMw
+  uploads_playlist_id: UUkrDEGNM3mqZXHk2MfnOjMw
+  title: YENA(최예나)
+  company: yuehua
+  kind: artist
+  priority: normal
+  track_groups:
+    - yena
+- id: chuu-official
+  youtube_channel_id: UCvhVqA_5HnM7M5X6OcZlMbg
+  uploads_playlist_id: UUvhVqA_5HnM7M5X6OcZlMbg
+  title: CHUU Official
+  company: atrp
+  kind: artist
+  priority: normal
+  track_groups:
+    - chuu
+- id: yves-official
+  youtube_channel_id: UCMuK2QPg9oFJ1-veMCw3Irg
+  uploads_playlist_id: UUMuK2QPg9oFJ1-veMCw3Irg
+  title: YVES 이브
+  company: paix-per-mil
+  kind: artist
+  priority: normal
+  track_groups:
+    - yves
+- id: jo-yuri-official
+  youtube_channel_id: UCSEVFgCkKem_c3nIBm7F37g
+  uploads_playlist_id: UUSEVFgCkKem_c3nIBm7F37g
+  title: 조유리 JO YURI
+  company: wakeone
+  kind: artist
+  priority: normal
+  track_groups:
+    - jo-yuri
+- id: hyolyn-official
+  youtube_channel_id: UCNJofNT5w33_mycys970x8g
+  uploads_playlist_id: UUNJofNT5w33_mycys970x8g
+  title: HYOLYN 효린
+  company: reh
+  kind: artist
+  priority: normal
+  track_groups:
+    - hyolyn
+- id: 1thek
+  youtube_channel_id: UCweOkPb1wVVH0Q0Tlj4a5Pw
+  uploads_playlist_id: UUweOkPb1wVVH0Q0Tlj4a5Pw
+  title: 1theK (원더케이)
+  company: 1thek
+  kind: distributor
+  priority: low
+  track_groups: []
+  notes: Secondary uploads; never auto-activated as main_mv.
+- id: stone-music
+  youtube_channel_id: UC_pwIXKXNm5KGhdEVzmY60A
+  uploads_playlist_id: UU_pwIXKXNm5KGhdEVzmY60A
+  title: STONE MUSIC
+  company: stone-music
+  kind: distributor
+  priority: low
+  track_groups: []
+  notes: Historical hosts (IZ*ONE etc.).

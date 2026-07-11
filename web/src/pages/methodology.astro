@@ -1,0 +1,43 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="Methodology · kpop-mv-data">
+  <header class="hero">
+    <p class="eyebrow">Methodology</p>
+    <h1>How public data is collected</h1>
+    <p class="lede">
+      Snapshots come from YouTube Data API <code>videos.list</code>. This project
+      stores public counters only. Derived promotion metrics are out of scope for
+      the public surface.
+    </p>
+  </header>
+
+  <section>
+    <h2>Cadence</h2>
+    <ul class="plain">
+      <li>0–72h after publish → every 10 minutes</li>
+      <li>Day 4–14 → hourly</li>
+      <li>Day 15–90 → every 6 hours</li>
+      <li>90+ days → daily</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Public fields</h2>
+    <ul class="plain">
+      <li><code>video_id</code>, <code>channel_id</code></li>
+      <li><code>snapshot_at</code>, <code>view_count</code>, <code>like_count</code>, <code>comment_count</code></li>
+      <li><code>data_source</code>, <code>collector_version</code></li>
+    </ul>
+  </section>
+
+  <section class="note">
+    <h2>Not published here</h2>
+    <p>
+      Charts-unrecognized estimates, organic/non-organic labels, and promotion
+      leaderboards stay in a private analysis project that only reads these
+      snapshots.
+    </p>
+  </section>
+</Layout>
