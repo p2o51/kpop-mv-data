@@ -28,9 +28,11 @@ GitHub Actions (once repo is pushed):
 # errors in recent runs? quota trend?
 cd collector && npx wrangler d1 execute kpop-mv --remote --command \
   "SELECT substr(started_at,1,10) d, SUM(quota_units) units, \
-          SUM(videos_attempted-videos_ok) failures, \
+          SUM(CASE WHEN tier NOT LIKE 'discovery%' THEN videos_attempted-videos_ok ELSE 0 END) failures, \
           SUM(CASE WHEN error IS NOT NULL THEN 1 ELSE 0 END) errored_runs \
    FROM job_runs GROUP BY d ORDER BY d DESC LIMIT 7"
+# NB: discovery rows use attempted=channels scanned, ok=new videos found —
+# their difference is not a failure count, hence the tier filter.
 
 # skim auto-discovered videos for misclassifications
 curl -s https://kpop-mv-collector.<subdomain>.workers.dev/discovered | jq .
